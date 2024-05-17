@@ -1,9 +1,8 @@
 class Solution(object):
     def jump(self, nums):
       
-        farthest =0
-        jumps=0
-        current =0 
+        farthest,jumps,current =0,0,0
+ 
         for i in range(len(nums)-1):
 
             
