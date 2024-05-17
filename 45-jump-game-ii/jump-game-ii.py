@@ -1,10 +1,6 @@
 class Solution(object):
     def jump(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        
+      
         farthest =0
         jumps=0
         current =0 
